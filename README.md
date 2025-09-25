@@ -32,7 +32,7 @@ cd JUnitGenie_Tool
 openai_key = "your-key-here"
 ```
 
-4. Ensure Neo4j is installed and running on your system.
+3. Ensure Neo4j is installed and running on your system.
 
 ## Quick Start
 
