@@ -45,6 +45,7 @@ python pipelines/extract_code_aware_knowledge.py --package org.apache.commons.la
 
 # Step 4: Import knowledge to Neo4j
 bash saved_data/Code_Knowledge_Base/org_apache_commons_lang3/neo4j_import_command.txt
+neo4j start
 
 # Step 5: Generate path-sensitive tests
 python pipelines/path_sensitive_generation.py \
