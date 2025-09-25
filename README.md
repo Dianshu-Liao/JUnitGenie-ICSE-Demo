@@ -52,10 +52,6 @@ python pipelines/path_sensitive_generation.py \
   --method "org.apache.commons.lang3.StringUtils.compare(String,String,boolean)" \
   --project-dir "saved_data/Project/commons-lang-master" \
   --package "org.apache.commons.lang3"
-
-# Step 6: Run the generated tests
-cd saved_data/Project/commons-lang-master
-mvn test
 ```
 
 ## Detailed Usage
