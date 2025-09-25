@@ -10,8 +10,8 @@ JUnitGenie Tool is a two-stage test generation framework:
 
 ## Prerequisites
 
-- Python 3.8+
-- Java 8+ (for compiling generated tests)
+- Python 3.12
+- Java 8
 - Maven (for Java project management)
 - Neo4j database (for knowledge graph storage)
 - **OpenAI API key** (for LLM-based test generation)
