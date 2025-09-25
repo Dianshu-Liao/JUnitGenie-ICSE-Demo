@@ -22,7 +22,7 @@ JUnitGenie Tool is a two-stage test generation framework:
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/Dianshu-Liao/JUnitGenie-ICSE-Demo.git
 cd JUnitGenie_Tool
 ```
 
