@@ -26,17 +26,11 @@ git clone <repository-url>
 cd JUnitGenie_Tool
 ```
 
-2. Install Python dependencies:
-```bash
-pip install -r requirements.txt  # If available
-```
 
-3. Configure your OpenAI API key in `config.py`:
+2. Configure your OpenAI API key in `config.py`:
 ```python
-openai_key = "sk-your-actual-openai-api-key-here"
+openai_key = "your-key-here"
 ```
-
-**Important**: Make sure to use your official OpenAI API key that starts with `sk-`. You can get one from [OpenAI Platform](https://platform.openai.com/api-keys).
 
 4. Ensure Neo4j is installed and running on your system.
 
