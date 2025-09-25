@@ -27,8 +27,6 @@ cd JUnitGenie_Tool
 openai_key = "your-key-here"
 ```
 
-3. Ensure Neo4j is installed and running on your system.
-
 ## Quick Start
 
 Here's a complete example using the Apache Commons Lang3 project:
