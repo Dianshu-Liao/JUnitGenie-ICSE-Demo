@@ -32,11 +32,12 @@ openai_key = "your-key-here"
 Here's a complete example using the Apache Commons Lang3 project:
 
 ```bash
-# Step 1: Prepare your Java project
-ls saved_data/Project
-cd ProjectInfoExtraction
+# Step 1: Prepare your Java project and compile it
+cd saved_data/Project/commons-lang-master 
+mvn compile
 
 # Step 2: Extract project information
+cd ../../../ProjectInfoExtraction
 mvn exec:java -Dexec.mainClass="com.Code_Mining" -Dexec.args="commons-lang-master org.apache.commons.lang3"
 
 # Step 3: Extract context knowledge
