@@ -14,7 +14,7 @@ JUnitGenie Tool is a two-stage test generation framework:
 - Java 8
 - Maven (for Java project management)
 - Neo4j database (for knowledge graph storage)
-- **OpenAI API key** (for LLM-based test generation)
+- OpenAI API key (for LLM-based test generation)
   - Official OpenAI API account with available credits
   - API key with access to GPT models (gpt-4o-mini, gpt-4, etc.)
 
