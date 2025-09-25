@@ -2,11 +2,6 @@
 
 A path-sensitive unit test generation tool that leverages knowledge distillation and control flow graph (CFG) analysis to generate high-quality JUnit tests for Java projects.
 
-## Overview
-
-JUnitGenie Tool is a two-stage test generation framework:
-1. **Context Knowledge Extraction**: Extract code-aware knowledge from Java projects and build a knowledge graph
-2. **Path-Sensitive Generation**: Generate unit tests for specific CFG paths with compilation verification
 
 ## Prerequisites
 
