@@ -171,19 +171,6 @@ Tests are saved to:
 saved_data/Project/commons-lang-master/src/test/java/org/apache/commons/lang3/StringUtils_compare_String_String_boolean_cfg_path_1_Test.java
 ```
 
-#### 2.4 Running Generated Tests
-
-Navigate to your project directory and run Maven tests:
-
-```bash
-cd saved_data/Project/commons-lang-master
-mvn test
-```
-
-Or run specific test classes:
-```bash
-mvn test -Dtest="StringUtils_compare_String_String_boolean_cfg_path_1_Test"
-```
 
 ## Project Structure
 
