@@ -177,8 +177,8 @@ saved_data/Project/commons-lang-master/src/test/java/org/apache/commons/lang3/St
 ```
 JUnitGenie_Tool/
 ├── pipelines/
-│   ├── extract_code_aware_knowledge.py    # Step 1: Knowledge extraction
-│   ├── path_sensitive_generation.py       # Step 2: Test generation
+│   ├── extract_code_aware_knowledge.py    # Knowledge extraction
+│   ├── path_sensitive_generation.py       # Test generation
 │   ├── basic_entities_extraction.py       # Entity extraction
 │   ├── obtain_cfg_paths.py               # CFG path analysis
 │   ├── obtain_use_relevant_info_relations.py  # Usage relation construction
