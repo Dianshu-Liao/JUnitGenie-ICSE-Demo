@@ -18,7 +18,7 @@ A path-sensitive unit test generation tool that leverages knowledge distillation
 1. Clone the repository:
 ```bash
 git clone https://github.com/Dianshu-Liao/JUnitGenie-ICSE-Demo.git
-cd JUnitGenie_Tool
+cd JUnitGenie-ICSE-Demo
 ```
 
 
