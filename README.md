@@ -27,6 +27,12 @@ cd JUnitGenie_Tool
 openai_key = "your-key-here"
 ```
 
+3. Collect dependency JAR file paths:
+```bash
+find ~/.m2/repository -name "*.jar" | tr '\n' ':' > classpath.txt
+```
+
+
 ## Quick Start
 
 Here's a complete example using the Apache Commons Lang3 project:
