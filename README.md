@@ -173,8 +173,55 @@ Tests are saved to:
 ```
 
 **Example:**
-```
+```java
 saved_data/Project/commons-lang-master/src/test/java/org/apache/commons/lang3/StringUtils_compare_String_String_boolean_cfg_path_1_Test.java
+
+
+package org.apache.commons.lang3;
+import org.apache.commons.lang3.StringUtils;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+
+public class StringUtils_compare_String_String_boolean_cfg_path_1_Test {
+
+    @Test(timeout = 4000)
+    public void testCompare_NullIsLess_True() {
+        int result = StringUtils.compare("apple", null, true);
+        assertEquals(-1, result);
+    }
+
+    @Test(timeout = 4000)
+    public void testCompare_NullIsLess_False() {
+        int result = StringUtils.compare(null, "banana", false);
+        assertEquals(1, result);
+    }
+
+    @Test(timeout = 4000)
+    public void testCompare_EqualStrings() {
+        int result = StringUtils.compare("apple", "apple", true);
+        assertEquals(0, result);
+    }
+
+    @Test(timeout = 4000)
+    public void testCompare_NullStrings() {
+        int result = StringUtils.compare(null, null, true);
+        assertEquals(0, result);
+    }
+
+    @Test(timeout = 4000)
+    public void testCompare_NonNullStrings() {
+        int result = StringUtils.compare("apple", "banana", true);
+        assertEquals(-1, result);
+    }
+
+    @Test(timeout = 4000)
+    public void testCompare_NonNullStrings_ReverseOrder() {
+        int result = StringUtils.compare("banana", "apple", true);
+        assertEquals(1, result);
+    }
+
+}
+
 ```
 
 
